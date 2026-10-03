@@ -1,39 +1,12 @@
-# Agente Alfa Omega
+# [CONSOLIDADO] Este repo foi unificado
 
-Bot/agente de criptomoedas com dashboard web, em **Python + Flask**.
+Em **03/10/2026** todos os projetos do ecossistema foram consolidados em um
+único repositório: **`issisbrasil18-star/Alfa-Platform`** (privado).
 
-Cópia pública do projeto **Agente Zeus**
-(https://github.com/issisbrasil18-star/Agente-Zeus) — mesmo código,
-repositório aberto para qualquer pessoa ver e usar.
+Cópia idêntica do Agente-Zeus (dashboard de portfólio CoinGecko). Consolidado no projeto único em 03/10/2026.
 
-## Como rodar
+Este repositório permanece apenas como registro histórico (arquivado,
+somente leitura). Toda evolução acontece no projeto único.
 
-```bash
-cd dashboard
-pip install -r requirements.txt
-python app.py
-```
-
-Depois abra http://localhost:5000
-
-## Funcionalidades
-
-- Preços ao vivo das top 20 moedas (CoinGecko), variação 24h e 7d
-- Carteira com valor total e variação por posição
-- Alertas de preço e de variação 24h
-- Análise do agente: sentimento do mercado, destaques e leitura da carteira
-- Histórico de preços em SQLite
-
-## Estrutura
-
-```
-/
-├── README.md            # este arquivo
-├── .gitignore
-└── dashboard/           # app Flask (bot de crypto)
-    ├── app.py
-    ├── requirements.txt
-    ├── README.md
-    ├── static/css/
-    └── templates/
-```
+Para reativar: Settings → Danger Zone → "Unarchive this repository"
+(ou pedir ao agente para desarquivar via API).
